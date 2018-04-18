@@ -25,7 +25,6 @@ Seguidamente se debe ejecutar el comando:
 
     $ composer update
 
-- [Capítulo 16. Funcionamiento de una glue app.](doc/Cap13.md)
 ## Contribuyendo. ##
 
 El desarrollo de GluePHP está basado en la metodología de [desarrollo guiado por pruebas(TDD)](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas), por lo que cada funcionalidad del *framework* se encuentra cubierta por al menos una prueba. Para las pruebas al código PHP se emplea [PHPUnit](https://phpunit.de/) mientras que para el código JavaScript se emplea [MochaJS](https://mochajs.org/), [Chai](http://chaijs.com/) y [SinonJS](http://sinonjs.org/). Para las pruebas a las funcionalidades *full-stack* se emplean las tecnologías [PHPUnit](https://phpunit.de/), [Selenium Server](http://www.seleniumhq.org/) con [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/).
