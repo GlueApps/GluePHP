@@ -1,12 +1,12 @@
 <?php
 
-namespace Andaniel05\GluePHP\Action;
+namespace GlueApps\GluePHP\Action;
 
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\GluePHP\Action\AbstractAction;
-use Andaniel05\GluePHP\Component\AbstractComponent;
-use Andaniel05\GluePHP\Component\Sidebar;
-use Andaniel05\GluePHP\Component\Model\Model;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\Component\Sidebar;
+use GlueApps\GluePHP\Component\Model\Model;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

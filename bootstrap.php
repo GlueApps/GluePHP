@@ -4,7 +4,7 @@ define('ROOT_DIR', __DIR__);
 
 require_once ROOT_DIR . '/vendor/autoload.php';
 
-use Andaniel05\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\Component\AbstractComponent;
 
 function appUri(string $appFileName, array $args = [], $saveInSession = true): string
 {

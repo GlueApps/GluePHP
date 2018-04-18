@@ -1,11 +1,11 @@
 <?php
 
-namespace Andaniel05\GluePHP\Response;
+namespace GlueApps\GluePHP\Response;
 
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\GluePHP\Action\AbstractAction;
-use Andaniel05\GluePHP\Update\UpdateResultInterface;
-use Andaniel05\GluePHP\Update\UpdateInterface;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Update\UpdateResultInterface;
+use GlueApps\GluePHP\Update\UpdateInterface;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

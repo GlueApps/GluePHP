@@ -1,6 +1,6 @@
 <?php
 
-namespace Andaniel05\GluePHP\Processor;
+namespace GlueApps\GluePHP\Processor;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

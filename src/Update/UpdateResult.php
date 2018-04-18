@@ -1,6 +1,6 @@
 <?php
 
-namespace Andaniel05\GluePHP\Update;
+namespace GlueApps\GluePHP\Update;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

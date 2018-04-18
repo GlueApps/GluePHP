@@ -1,6 +1,6 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Integration\Append;
+namespace GlueApps\GluePHP\Tests\Integration\Append;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

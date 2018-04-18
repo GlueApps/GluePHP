@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Event;
+namespace GlueApps\GluePHP\Event;
 
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\GluePHP\Component\AbstractComponent;
 use Symfony\Component\EventDispatcher\Event as SymfonyEvent;
 
 /**

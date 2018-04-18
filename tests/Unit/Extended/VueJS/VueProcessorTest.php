@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Extended\VueJS;
+namespace GlueApps\GluePHP\Tests\Unit\Extended\VueJS;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\Extended\VueJS\VueProcessor;
-use Andaniel05\ComposedViews\Asset\ScriptAsset;
+use GlueApps\GluePHP\Extended\VueJS\VueProcessor;
+use GlueApps\ComposedViews\Asset\ScriptAsset;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

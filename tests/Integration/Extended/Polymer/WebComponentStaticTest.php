@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Integration\Extended\Polymer;
+namespace GlueApps\GluePHP\Tests\Integration\Extended\Polymer;
 
-use Andaniel05\PolyGlue\Component\WebComponent;
-use Andaniel05\GluePHP\Tests\StaticTestCase;
+use GlueApps\PolyGlue\Component\WebComponent;
+use GlueApps\GluePHP\Tests\StaticTestCase;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

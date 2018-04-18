@@ -6,7 +6,7 @@
 require_once __DIR__ . '/../bootstrap.php';
 session_start();
 
-use Andaniel05\GluePHP\Request\Request;
+use GlueApps\GluePHP\Request\Request;
 use function Opis\Closure\serialize as s;
 use function Opis\Closure\unserialize as u;
 

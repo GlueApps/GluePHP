@@ -3,7 +3,7 @@
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
  */
 
-use Andaniel05\GluePHP\AbstractApp;
+use GlueApps\GluePHP\AbstractApp;
 
 return new class('') extends AbstractApp {
     public function html(): ?string

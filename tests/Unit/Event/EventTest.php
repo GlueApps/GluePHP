@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Event;
+namespace GlueApps\GluePHP\Tests\Unit\Event;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\GluePHP\Event\Event;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\GluePHP\Event\Event;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

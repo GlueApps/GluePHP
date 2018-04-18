@@ -1,8 +1,8 @@
 <?php
 
-namespace Andaniel05\GluePHP\Component\Model;
+namespace GlueApps\GluePHP\Component\Model;
 
-use Andaniel05\GluePHP\AbstractApp;
+use GlueApps\GluePHP\AbstractApp;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

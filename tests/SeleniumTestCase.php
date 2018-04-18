@@ -1,6 +1,6 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests;
+namespace GlueApps\GluePHP\Tests;
 
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 

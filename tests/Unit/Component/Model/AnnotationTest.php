@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Component\Model;
+namespace GlueApps\GluePHP\Tests\Unit\Component\Model;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\Component\Model\Annotation;
+use GlueApps\GluePHP\Component\Model\Annotation;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

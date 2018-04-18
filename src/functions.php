@@ -1,8 +1,8 @@
 <?php
 
-namespace Andaniel05\GluePHP;
+namespace GlueApps\GluePHP;
 
-use Andaniel05\GluePHP\Component\Model\Exception\InvalidTypeException;
+use GlueApps\GluePHP\Component\Model\Exception\InvalidTypeException;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

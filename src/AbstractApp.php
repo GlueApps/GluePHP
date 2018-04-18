@@ -1,42 +1,42 @@
 <?php
 
-namespace Andaniel05\GluePHP;
+namespace GlueApps\GluePHP;
 
-use Andaniel05\GluePHP\Action\AbstractAction;
-use Andaniel05\GluePHP\Action\CanSendActionsTrait;
-use Andaniel05\GluePHP\Action\EvalAction;
-use Andaniel05\GluePHP\Action\AppendAction;
-use Andaniel05\GluePHP\Action\RegisterAction;
-use Andaniel05\GluePHP\Action\RegisterEventAction;
-use Andaniel05\GluePHP\Action\UpdateAction;
-use Andaniel05\GluePHP\Action\DeleteAction;
-use Andaniel05\GluePHP\Asset\AppScript;
-use Andaniel05\GluePHP\Processor\BindEventsProcessor;
-use Andaniel05\GluePHP\Processor\BindValueProcessor;
-use Andaniel05\GluePHP\Request\RequestInterface;
-use Andaniel05\GluePHP\Response\ResponseInterface;
-use Andaniel05\GluePHP\Response\Response;
-use Andaniel05\GluePHP\Event\Event;
-use Andaniel05\GluePHP\Event\RequestEvent;
-use Andaniel05\GluePHP\Event\ResponseEvent;
-use Andaniel05\GluePHP\Update\UpdateInterface;
-use Andaniel05\GluePHP\Update\UpdateResultInterface;
-use Andaniel05\GluePHP\Update\UpdateResult;
-use Andaniel05\GluePHP\Update\Update;
-use Andaniel05\GluePHP\Component\AbstractComponent;
-use Andaniel05\GluePHP\Component\EventRecordTrait;
-use Andaniel05\GluePHP\Component\Sidebar;
-use Andaniel05\GluePHP\Component\Model\ModelInterface;
-use Andaniel05\GluePHP\Component\Model\Model;
+use GlueApps\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Action\CanSendActionsTrait;
+use GlueApps\GluePHP\Action\EvalAction;
+use GlueApps\GluePHP\Action\AppendAction;
+use GlueApps\GluePHP\Action\RegisterAction;
+use GlueApps\GluePHP\Action\RegisterEventAction;
+use GlueApps\GluePHP\Action\UpdateAction;
+use GlueApps\GluePHP\Action\DeleteAction;
+use GlueApps\GluePHP\Asset\AppScript;
+use GlueApps\GluePHP\Processor\BindEventsProcessor;
+use GlueApps\GluePHP\Processor\BindValueProcessor;
+use GlueApps\GluePHP\Request\RequestInterface;
+use GlueApps\GluePHP\Response\ResponseInterface;
+use GlueApps\GluePHP\Response\Response;
+use GlueApps\GluePHP\Event\Event;
+use GlueApps\GluePHP\Event\RequestEvent;
+use GlueApps\GluePHP\Event\ResponseEvent;
+use GlueApps\GluePHP\Update\UpdateInterface;
+use GlueApps\GluePHP\Update\UpdateResultInterface;
+use GlueApps\GluePHP\Update\UpdateResult;
+use GlueApps\GluePHP\Update\Update;
+use GlueApps\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\Component\EventRecordTrait;
+use GlueApps\GluePHP\Component\Sidebar;
+use GlueApps\GluePHP\Component\Model\ModelInterface;
+use GlueApps\GluePHP\Component\Model\Model;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Andaniel05\ComposedViews\Asset\ContentScriptAsset;
-use Andaniel05\ComposedViews\AbstractPage;
-use Andaniel05\ComposedViews\PageEvents;
-use Andaniel05\ComposedViews\Event\BeforeInsertionEvent;
-use Andaniel05\ComposedViews\Event\AfterInsertionEvent;
-use Andaniel05\ComposedViews\Event\AfterDeletionEvent;
-use Andaniel05\ComposedViews\Component\ComponentInterface as PageComponentInterface;
+use GlueApps\ComposedViews\Asset\ContentScriptAsset;
+use GlueApps\ComposedViews\AbstractPage;
+use GlueApps\ComposedViews\PageEvents;
+use GlueApps\ComposedViews\Event\BeforeInsertionEvent;
+use GlueApps\ComposedViews\Event\AfterInsertionEvent;
+use GlueApps\ComposedViews\Event\AfterDeletionEvent;
+use GlueApps\ComposedViews\Component\ComponentInterface as PageComponentInterface;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

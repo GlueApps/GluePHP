@@ -1,11 +1,11 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Builder;
+namespace GlueApps\GluePHP\Tests\Unit\Builder;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\GluePHP\Builder\AppBuilder;
-use Andaniel05\ComposedViews\Builder\PageBuilder;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\GluePHP\Builder\AppBuilder;
+use GlueApps\ComposedViews\Builder\PageBuilder;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
@@ -15,7 +15,7 @@ class AppBuilderTest extends TestCase
     public function setUp()
     {
         $this->builder = new AppBuilder;
-        $this->xml = '<app class="Andaniel05\GluePHP\Tests\Unit\Builder\App"></app>';
+        $this->xml = '<app class="GlueApps\GluePHP\Tests\Unit\Builder\App"></app>';
         $this->app = $this->builder->build($this->xml);
 
         $this->builder->onTag('component', function ($event) {
@@ -43,7 +43,7 @@ class AppBuilderTest extends TestCase
     {
         $controllerPath = uniqid();
         $xml = <<<XML
-<app class="Andaniel05\GluePHP\Tests\Unit\Builder\App"
+<app class="GlueApps\GluePHP\Tests\Unit\Builder\App"
       controller="{$controllerPath}"></app>
 XML;
         $app = $this->builder->build($xml);
@@ -60,7 +60,7 @@ XML;
     {
         $basePath = uniqid();
         $xml = <<<XML
-<app class="Andaniel05\GluePHP\Tests\Unit\Builder\App"
+<app class="GlueApps\GluePHP\Tests\Unit\Builder\App"
       base-path="{$basePath}"></app>
 XML;
         $app = $this->builder->build($xml);
@@ -71,13 +71,13 @@ XML;
     public function providerInvalidClass()
     {
         return [
-            ['<app class="Andaniel05\ComposedViews\Tests\Builder\Page"></app>'],
+            ['<app class="GlueApps\ComposedViews\Tests\Builder\Page"></app>'],
         ];
     }
 
     /**
      * @dataProvider providerInvalidClass
-     * @expectedException Andaniel05\GluePHP\Builder\Exception\InvalidAppClassException
+     * @expectedException GlueApps\GluePHP\Builder\Exception\InvalidAppClassException
      */
     public function testThrowLostClassAttributeException($xml)
     {
@@ -88,7 +88,7 @@ XML;
     {
         $id = uniqid('comp');
         $xml = <<<XML
-<app class="Andaniel05\GluePHP\Tests\Unit\Builder\App">
+<app class="GlueApps\GluePHP\Tests\Unit\Builder\App">
     <sidebar id="sidebar1">
         <component id="{$id}"></component>
     </sidebar>
@@ -107,7 +107,7 @@ XML;
     public function testAppTagPopulation2()
     {
         $xml = <<<XML
-<app class="Andaniel05\GluePHP\Tests\Unit\Builder\App">
+<app class="GlueApps\GluePHP\Tests\Unit\Builder\App">
 
     <sidebar id="sidebar1">
         <component id="component1">
@@ -155,7 +155,7 @@ XML;
     }
 
     /**
-     * @expectedException Andaniel05\GluePHP\Builder\Exception\InvalidAppException
+     * @expectedException GlueApps\GluePHP\Builder\Exception\InvalidAppException
      */
     public function testBuildAppThrowInvalidAppExceptionIfBuiltResultIsNotAnInstanceOfApp()
     {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Andaniel05\GluePHP\Asset;
+namespace GlueApps\GluePHP\Asset;
 
-use function Andaniel05\GluePHP\jsVal;
-use Andaniel05\GluePHP\Component\Model\Model;
-use Andaniel05\GluePHP\Component\Model\Exception\InvalidTypeException;
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\ComposedViews\Asset\ContentScriptAsset;
+use function GlueApps\GluePHP\jsVal;
+use GlueApps\GluePHP\Component\Model\Model;
+use GlueApps\GluePHP\Component\Model\Exception\InvalidTypeException;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\ComposedViews\Asset\ContentScriptAsset;
 use MatthiasMullie\Minify;
 
 /**

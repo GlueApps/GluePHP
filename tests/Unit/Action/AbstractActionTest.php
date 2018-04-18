@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Action;
+namespace GlueApps\GluePHP\Tests\Unit\Action;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Action\AbstractAction;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

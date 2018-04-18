@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Extended\VueJS;
+namespace GlueApps\GluePHP\Extended\VueJS;
 
-use Andaniel05\ComposedViews\Asset\ScriptAsset;
-use Andaniel05\GluePHP\Processor\AbstractProcessor;
+use GlueApps\ComposedViews\Asset\ScriptAsset;
+use GlueApps\GluePHP\Processor\AbstractProcessor;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

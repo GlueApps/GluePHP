@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Request;
+namespace GlueApps\GluePHP\Tests\Unit\Request;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\Request\Request;
-use Andaniel05\GluePHP\Update\UpdateInterface;
+use GlueApps\GluePHP\Request\Request;
+use GlueApps\GluePHP\Update\UpdateInterface;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

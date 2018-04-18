@@ -3,9 +3,9 @@
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
  */
 
-use Andaniel05\GluePHP\Tests\Unit\Extended\Polymer\TestApp;
-use Andaniel05\GluePHP\Extended\Polymer\WebComponent;
-use Andaniel05\GluePHP\Action\AlertAction;
+use GlueApps\GluePHP\Tests\Unit\Extended\Polymer\TestApp;
+use GlueApps\GluePHP\Extended\Polymer\WebComponent;
+use GlueApps\GluePHP\Action\AlertAction;
 
 $eventName = $_GET['eventName'];
 

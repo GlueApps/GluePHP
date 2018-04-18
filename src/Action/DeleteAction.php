@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Action;
+namespace GlueApps\GluePHP\Action;
 
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\GluePHP\Action\AbstractAction;
-use Andaniel05\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Component\AbstractComponent;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Component\Model;
+namespace GlueApps\GluePHP\Component\Model;
 
-use Andaniel05\GluePHP\AbstractApp;
-use function Andaniel05\GluePHP\jsVal;
-use Andaniel05\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\AbstractApp;
+use function GlueApps\GluePHP\jsVal;
+use GlueApps\GluePHP\Component\AbstractComponent;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

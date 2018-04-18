@@ -1,6 +1,6 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests;
+namespace GlueApps\GluePHP\Tests;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

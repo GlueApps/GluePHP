@@ -1,19 +1,19 @@
 <?php
 
-namespace Andaniel05\GluePHP\Component;
+namespace GlueApps\GluePHP\Component;
 
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\GluePHP\Action\AbstractAction;
-use Andaniel05\GluePHP\Action\UpdateAction;
-use Andaniel05\GluePHP\Component\Model\ModelInterface;
-use Andaniel05\GluePHP\Component\Model\Model;
-use Andaniel05\GluePHP\Processor\BindValueProcessor;
-use Andaniel05\GluePHP\Processor\BindEventsProcessor;
-use Andaniel05\GluePHP\Processor\BindAttributesProcessor;
-use Andaniel05\GluePHP\Processor\BindHtmlProcessor;
-use Andaniel05\GluePHP\Processor\ShortEventsProcessor;
-use Andaniel05\ComposedViews\PageInterface;
-use Andaniel05\ComposedViews\Component\AbstractComponent as AbstractViewComponent;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Action\UpdateAction;
+use GlueApps\GluePHP\Component\Model\ModelInterface;
+use GlueApps\GluePHP\Component\Model\Model;
+use GlueApps\GluePHP\Processor\BindValueProcessor;
+use GlueApps\GluePHP\Processor\BindEventsProcessor;
+use GlueApps\GluePHP\Processor\BindAttributesProcessor;
+use GlueApps\GluePHP\Processor\BindHtmlProcessor;
+use GlueApps\GluePHP\Processor\ShortEventsProcessor;
+use GlueApps\ComposedViews\PageInterface;
+use GlueApps\ComposedViews\Component\AbstractComponent as AbstractViewComponent;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 

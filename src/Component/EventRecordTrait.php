@@ -1,6 +1,6 @@
 <?php
 
-namespace Andaniel05\GluePHP\Component;
+namespace GlueApps\GluePHP\Component;
 
 trait EventRecordTrait
 {

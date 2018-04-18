@@ -5,7 +5,7 @@
 
 require_once 'base.php';
 
-use Andaniel05\GluePHP\Action\AlertAction;
+use GlueApps\GluePHP\Action\AlertAction;
 
 $button->on('click', function ($event) {
     $app = $event->getApp();

@@ -1,23 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66f9296522dcb020620760643997c2ad",
+    "content-hash": "df800b6240e4ef64012589f85e9c371a",
     "packages": [
         {
-            "name": "andaniel05/composed-views",
+            "name": "glueapps/composed-views",
             "version": "dev-0.1a",
             "source": {
                 "type": "git",
-                "url": "https://github.com/andaniel05/ComposedViews.git",
-                "reference": "5c6dde5250f34f2007cee3c512d2d1181ecba49f"
+                "url": "https://github.com/GlueApps/ComposedViews.git",
+                "reference": "1202d071e627d4b5fd7e7dc2446c9be79a364ccc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/andaniel05/ComposedViews/zipball/5c6dde5250f34f2007cee3c512d2d1181ecba49f",
-                "reference": "5c6dde5250f34f2007cee3c512d2d1181ecba49f",
+                "url": "https://api.github.com/repos/GlueApps/ComposedViews/zipball/1202d071e627d4b5fd7e7dc2446c9be79a364ccc",
+                "reference": "1202d071e627d4b5fd7e7dc2446c9be79a364ccc",
                 "shasum": ""
             },
             "require": {
@@ -31,8 +31,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Andaniel05\\ComposedViews\\": "src/",
-                    "Andaniel05\\ComposedViews\\Tests\\": "tests/"
+                    "GlueApps\\ComposedViews\\": "src/",
+                    "GlueApps\\ComposedViews\\Tests\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -41,11 +41,14 @@
             ],
             "authors": [
                 {
-                    "name": "Andy D. Navarro Taño",
+                    "name": "Andy Daniel Navarro Taño",
                     "email": "andaniel05@gmail.com"
+                },
+                {
+                    "name": "GlueApps Community"
                 }
             ],
-            "time": "2018-04-06T18:37:34+00:00"
+            "time": "2018-04-18T14:55:54+00:00"
         },
         {
             "name": "matthiasmullie/minify",
@@ -674,23 +677,23 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "1.7.5",
+            "version": "1.7.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "dfd6be44111a7c41c2e884a336cc4f461b3b2401"
+                "reference": "33a7e3c4fda54e912ff6338c48823bd5c0f0b712"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/dfd6be44111a7c41c2e884a336cc4f461b3b2401",
-                "reference": "dfd6be44111a7c41c2e884a336cc4f461b3b2401",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/33a7e3c4fda54e912ff6338c48823bd5c0f0b712",
+                "reference": "33a7e3c4fda54e912ff6338c48823bd5c0f0b712",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.0.2",
                 "php": "^5.3|^7.0",
                 "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0",
-                "sebastian/comparator": "^1.1|^2.0",
+                "sebastian/comparator": "^1.1|^2.0|^3.0",
                 "sebastian/recursion-context": "^1.0|^2.0|^3.0"
             },
             "require-dev": {
@@ -733,7 +736,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2018-02-19T10:16:54+00:00"
+            "time": "2018-04-18T13:57:24+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1780,7 +1783,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "andaniel05/composed-views": 20,
+        "glueapps/composed-views": 20,
         "facebook/webdriver": 20
     },
     "prefer-stable": false,

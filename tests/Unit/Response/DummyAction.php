@@ -1,8 +1,8 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Response;
+namespace GlueApps\GluePHP\Tests\Unit\Response;
 
-use Andaniel05\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Action\AbstractAction;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

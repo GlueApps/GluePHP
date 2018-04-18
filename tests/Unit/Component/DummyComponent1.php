@@ -1,8 +1,8 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Component;
+namespace GlueApps\GluePHP\Tests\Unit\Component;
 
-use Andaniel05\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\Component\AbstractComponent;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

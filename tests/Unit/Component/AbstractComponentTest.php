@@ -1,20 +1,20 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Component;
+namespace GlueApps\GluePHP\Tests\Unit\Component;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\GluePHP\Action\AbstractAction;
-use Andaniel05\GluePHP\Action\UpdateAction;
-use Andaniel05\GluePHP\Component\AbstractComponent;
-use Andaniel05\GluePHP\Component\Model\Model;
-use Andaniel05\GluePHP\Component\Model\ModelInterface;
-use Andaniel05\GluePHP\Response\Response;
-use Andaniel05\GluePHP\Processor\BindValueProcessor;
-use Andaniel05\GluePHP\Processor\BindEventsProcessor;
-use Andaniel05\GluePHP\Processor\BindAttributesProcessor;
-use Andaniel05\GluePHP\Processor\BindHtmlProcessor;
-use Andaniel05\GluePHP\Processor\ShortEventsProcessor;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Action\UpdateAction;
+use GlueApps\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\Component\Model\Model;
+use GlueApps\GluePHP\Component\Model\ModelInterface;
+use GlueApps\GluePHP\Response\Response;
+use GlueApps\GluePHP\Processor\BindValueProcessor;
+use GlueApps\GluePHP\Processor\BindEventsProcessor;
+use GlueApps\GluePHP\Processor\BindAttributesProcessor;
+use GlueApps\GluePHP\Processor\BindHtmlProcessor;
+use GlueApps\GluePHP\Processor\ShortEventsProcessor;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 /**
@@ -121,7 +121,7 @@ class AbstractComponentTest extends TestCase
     }
 
     /**
-     * @expectedException Andaniel05\GluePHP\Component\Exception\InvalidCallException
+     * @expectedException GlueApps\GluePHP\Component\Exception\InvalidCallException
      */
     public function testThrowAnInvalidCallException_WhenMethodNameIsNotRecognizable()
     {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Functional\Component;
+namespace GlueApps\GluePHP\Tests\Functional\Component;
 
-use function Andaniel05\GluePHP\jsVal;
-use Andaniel05\GluePHP\Component\AbstractComponent;
-use Andaniel05\GluePHP\Component\Model\ModelInterface;
-use Andaniel05\GluePHP\Component\Model\Model;
-use Andaniel05\GluePHP\Tests\StaticTestCase;
+use function GlueApps\GluePHP\jsVal;
+use GlueApps\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\Component\Model\ModelInterface;
+use GlueApps\GluePHP\Component\Model\Model;
+use GlueApps\GluePHP\Tests\StaticTestCase;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
@@ -91,7 +91,7 @@ class AbstractComponentStaticTest extends StaticTestCase
     }
 
     /**
-     * @expectedException Andaniel05\GluePHP\Component\Model\Exception\InvalidTypeException
+     * @expectedException GlueApps\GluePHP\Component\Model\Exception\InvalidTypeException
      * @dataProvider providerThrowInvalidTypeExceptionWhenAttributeTypeIsNotAllowed
      */
     public function testThrowInvalidTypeExceptionWhenAttributeTypeIsNotAllowed($value)

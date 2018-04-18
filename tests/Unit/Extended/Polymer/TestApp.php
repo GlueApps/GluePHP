@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Extended\Polymer;
+namespace GlueApps\GluePHP\Tests\Unit\Extended\Polymer;
 
-use Andaniel05\GluePHP\Tests\TestApp as GluePHPTestApp;
-use Andaniel05\ComposedViews\Asset\ScriptAsset;
-use Andaniel05\ComposedViews\Asset\ImportAsset;
+use GlueApps\GluePHP\Tests\TestApp as GluePHPTestApp;
+use GlueApps\ComposedViews\Asset\ScriptAsset;
+use GlueApps\ComposedViews\Asset\ImportAsset;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

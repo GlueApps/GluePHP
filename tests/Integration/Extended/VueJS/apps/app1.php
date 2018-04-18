@@ -3,8 +3,8 @@
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
  */
 
-use Andaniel05\GluePHP\Tests\TestApp;
-use Andaniel05\GluePHP\Tests\Integration\Entities\Components\VueButton;
+use GlueApps\GluePHP\Tests\TestApp;
+use GlueApps\GluePHP\Tests\Integration\Entities\Components\VueButton;
 
 $text = $_GET['text'];
 $button = new VueButton('button');

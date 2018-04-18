@@ -6,7 +6,7 @@
 require_once 'base.php';
 
 $button->on('click', function ($event) {
-    $processor = new class extends Andaniel05\GluePHP\Processor\AbstractProcessor {
+    $processor = new class extends GlueApps\GluePHP\Processor\AbstractProcessor {
         public static function script(): string
         {
             return <<<JAVASCRIPT

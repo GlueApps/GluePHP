@@ -5,8 +5,8 @@
 
 require_once 'base.php';
 
-use Andaniel05\GluePHP\Tests\Integration\Entities\Components\Button;
-use Andaniel05\GluePHP\Action\AlertAction;
+use GlueApps\GluePHP\Tests\Integration\Entities\Components\Button;
+use GlueApps\GluePHP\Action\AlertAction;
 
 $button1->on('click', function ($event1) {
     $button2 = new Button('button2');

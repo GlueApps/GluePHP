@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Asset;
+namespace GlueApps\GluePHP\Tests\Unit\Asset;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\GluePHP\Asset\AppScript;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\GluePHP\Asset\AppScript;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

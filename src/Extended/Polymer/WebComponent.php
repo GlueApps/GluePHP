@@ -1,13 +1,13 @@
 <?php
 
-namespace Andaniel05\GluePHP\Extended\Polymer;
+namespace GlueApps\GluePHP\Extended\Polymer;
 
-use Andaniel05\ComposedViews\Asset\ScriptAsset;
-use Andaniel05\ComposedViews\Asset\ImportAsset;
-use Andaniel05\ComposedViews\HtmlElement\HtmlElementInterface;
-use Andaniel05\ComposedViews\HtmlElement\HtmlElement;
-use function Andaniel05\GluePHP\jsVal;
-use Andaniel05\GluePHP\Component\AbstractComponent;
+use GlueApps\ComposedViews\Asset\ScriptAsset;
+use GlueApps\ComposedViews\Asset\ImportAsset;
+use GlueApps\ComposedViews\HtmlElement\HtmlElementInterface;
+use GlueApps\ComposedViews\HtmlElement\HtmlElement;
+use function GlueApps\GluePHP\jsVal;
+use GlueApps\GluePHP\Component\AbstractComponent;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

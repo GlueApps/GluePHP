@@ -1,8 +1,8 @@
 <?php
 
-namespace Andaniel05\GluePHP\Component;
+namespace GlueApps\GluePHP\Component;
 
-use Andaniel05\ComposedViews\Component\SidebarInterface;
+use GlueApps\ComposedViews\Component\SidebarInterface;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

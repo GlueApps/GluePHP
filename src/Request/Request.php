@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Request;
+namespace GlueApps\GluePHP\Request;
 
-use Andaniel05\GluePHP\Update\UpdateInterface;
-use Andaniel05\GluePHP\Update\Update;
+use GlueApps\GluePHP\Update\UpdateInterface;
+use GlueApps\GluePHP\Update\Update;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

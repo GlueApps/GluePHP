@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Component\Model;
+namespace GlueApps\GluePHP\Tests\Unit\Component\Model;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\Component\Model\Model;
-use Andaniel05\GluePHP\Tests\Unit\Component\DummyComponent1;
+use GlueApps\GluePHP\Component\Model\Model;
+use GlueApps\GluePHP\Tests\Unit\Component\DummyComponent1;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
@@ -12,7 +12,7 @@ use Andaniel05\GluePHP\Tests\Unit\Component\DummyComponent1;
 class ModelTest extends TestCase
 {
     /**
-     * @expectedException Andaniel05\GluePHP\Component\Model\Exception\ClassNotFoundException
+     * @expectedException GlueApps\GluePHP\Component\Model\Exception\ClassNotFoundException
      */
     public function testConstructorThrowClassNotFoundExceptionWhenClassNotExists()
     {
@@ -20,7 +20,7 @@ class ModelTest extends TestCase
     }
 
     /**
-     * @expectedException Andaniel05\GluePHP\Component\Model\Exception\InvalidComponentClassException
+     * @expectedException GlueApps\GluePHP\Component\Model\Exception\InvalidComponentClassException
      */
     public function testConstructorThrowInvalidComponentClassExceptionWhenClassIsNotInstanceOfAbstractComponent()
     {

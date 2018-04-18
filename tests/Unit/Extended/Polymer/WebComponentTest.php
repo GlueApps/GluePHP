@@ -1,14 +1,14 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Extended\Polymer;
+namespace GlueApps\GluePHP\Tests\Unit\Extended\Polymer;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\Extended\Polymer\WebComponent;
-use Andaniel05\GluePHP\Extended\Polymer\WebComponentProcessor;
-use Andaniel05\ComposedViews\Asset\ScriptAsset;
-use Andaniel05\ComposedViews\Asset\ImportAsset;
-use Andaniel05\ComposedViews\HtmlElement\HtmlElementInterface;
-use Andaniel05\ComposedViews\HtmlElement\HtmlElement;
+use GlueApps\GluePHP\Extended\Polymer\WebComponent;
+use GlueApps\GluePHP\Extended\Polymer\WebComponentProcessor;
+use GlueApps\ComposedViews\Asset\ScriptAsset;
+use GlueApps\ComposedViews\Asset\ImportAsset;
+use GlueApps\ComposedViews\HtmlElement\HtmlElementInterface;
+use GlueApps\ComposedViews\HtmlElement\HtmlElement;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
@@ -201,7 +201,7 @@ class WebComponentTest extends TestCase
 
     /**
      * @dataProvider provider1
-     * @expectedException Andaniel05\GluePHP\Extended\Polymer\Exception\UndefinedGlueAttributeException
+     * @expectedException GlueApps\GluePHP\Extended\Polymer\Exception\UndefinedGlueAttributeException
      */
     public function testThrowUndefinedGlueAttributeExceptionWhenBindPropertiesContainsAnUndefinedAttributeName($component)
     {

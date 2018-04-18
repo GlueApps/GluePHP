@@ -3,9 +3,9 @@
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
  */
 
-use Andaniel05\GluePHP\Tests\TestApp;
-use Andaniel05\GluePHP\Tests\Integration\Entities\Components\TextInput;
-use Andaniel05\GluePHP\Action\AlertAction;
+use GlueApps\GluePHP\Tests\TestApp;
+use GlueApps\GluePHP\Tests\Integration\Entities\Components\TextInput;
+use GlueApps\GluePHP\Action\AlertAction;
 
 $callback = function ($event) {
     $eventData = $event->getData();

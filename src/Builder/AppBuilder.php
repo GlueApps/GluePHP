@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Builder;
+namespace GlueApps\GluePHP\Builder;
 
-use Andaniel05\ComposedViews\Builder\PageBuilder;
-use Andaniel05\ComposedViews\Builder\Event\BuilderEvent;
-use Andaniel05\GluePHP\AbstractApp;
+use GlueApps\ComposedViews\Builder\PageBuilder;
+use GlueApps\ComposedViews\Builder\Event\BuilderEvent;
+use GlueApps\GluePHP\AbstractApp;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

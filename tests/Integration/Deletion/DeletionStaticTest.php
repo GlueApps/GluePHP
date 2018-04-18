@@ -1,8 +1,8 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Integration\Deletion;
+namespace GlueApps\GluePHP\Tests\Integration\Deletion;
 
-use Andaniel05\GluePHP\Tests\StaticTestCase;
+use GlueApps\GluePHP\Tests\StaticTestCase;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

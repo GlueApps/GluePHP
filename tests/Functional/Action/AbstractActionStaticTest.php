@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Functional;
+namespace GlueApps\GluePHP\Tests\Functional;
 
-use Andaniel05\GluePHP\Tests\StaticTestCase;
-use Andaniel05\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Tests\StaticTestCase;
+use GlueApps\GluePHP\Action\AbstractAction;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

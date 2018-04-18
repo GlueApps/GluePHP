@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Unit\Processor;
+namespace GlueApps\GluePHP\Tests\Unit\Processor;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\Processor\AbstractProcessor;
+use GlueApps\GluePHP\Processor\AbstractProcessor;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

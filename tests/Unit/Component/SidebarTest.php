@@ -1,10 +1,10 @@
 <?php
 
-namespace Andaniel05\GluePHP\Component;
+namespace GlueApps\GluePHP\Component;
 
 use PHPUnit\Framework\TestCase;
-use Andaniel05\GluePHP\Component\Sidebar;
-use Andaniel05\ComposedViews\Component\SidebarInterface;
+use GlueApps\GluePHP\Component\Sidebar;
+use GlueApps\ComposedViews\Component\SidebarInterface;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

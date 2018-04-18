@@ -1,12 +1,12 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Functional;
+namespace GlueApps\GluePHP\Tests\Functional;
 
-use Andaniel05\GluePHP\Tests\TestApp;
-use Andaniel05\GluePHP\Tests\StaticTestCase;
-use Andaniel05\GluePHP\Action\AbstractAction;
-use Andaniel05\GluePHP\Component\AbstractComponent;
-use Andaniel05\GluePHP\Processor\AbstractProcessor;
+use GlueApps\GluePHP\Tests\TestApp;
+use GlueApps\GluePHP\Tests\StaticTestCase;
+use GlueApps\GluePHP\Action\AbstractAction;
+use GlueApps\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\Processor\AbstractProcessor;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>

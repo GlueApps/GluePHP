@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests;
+namespace GlueApps\GluePHP\Tests;
 
-use Andaniel05\GluePHP\AbstractApp;
-use Andaniel05\ComposedViews\PageEvents;
+use GlueApps\GluePHP\AbstractApp;
+use GlueApps\ComposedViews\PageEvents;
 use Symfony\Component\EventDispatcher\EventDispatcherInterface;
 
 /**

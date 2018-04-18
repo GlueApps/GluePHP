@@ -1,9 +1,9 @@
 <?php
 
-namespace Andaniel05\GluePHP\Tests\Functional\Processor;
+namespace GlueApps\GluePHP\Tests\Functional\Processor;
 
-use Andaniel05\GluePHP\Component\AbstractComponent;
-use Andaniel05\GluePHP\Tests\StaticTestCase;
+use GlueApps\GluePHP\Component\AbstractComponent;
+use GlueApps\GluePHP\Tests\StaticTestCase;
 
 /**
  * @author Andy Daniel Navarro Taño <andaniel05@gmail.com>
