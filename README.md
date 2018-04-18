@@ -25,6 +25,7 @@ Seguidamente se debe ejecutar el comando:
 
     $ composer update
 
+- [Capítulo 16. Funcionamiento de una glue app.](doc/Cap13.md)
 ## Contribuyendo. ##
 
 El desarrollo de GluePHP está basado en la metodología de [desarrollo guiado por pruebas(TDD)](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas), por lo que cada funcionalidad del *framework* se encuentra cubierta por al menos una prueba. Para las pruebas al código PHP se emplea [PHPUnit](https://phpunit.de/) mientras que para el código JavaScript se emplea [MochaJS](https://mochajs.org/), [Chai](http://chaijs.com/) y [SinonJS](http://sinonjs.org/). Para las pruebas a las funcionalidades *full-stack* se emplean las tecnologías [PHPUnit](https://phpunit.de/), [Selenium Server](http://www.seleniumhq.org/) con [Chrome Driver](https://sites.google.com/a/chromium.org/chromedriver/).
@@ -41,7 +42,7 @@ Para el código JavaScript existen algunas tareas automatizadas con [GulpJS](htt
 2. Clonar en local el nuevo repositorio que se ha creado en su cuenta de GitHub.
 3. Realizar las modificaciones **con sus respectivas pruebas**.
 4. Hacer *push* al origen.
-5. Crear un *pull requests*.
+5. Crear un *pull request*.
 
 ### Ejecutando las pruebas. ###
 
