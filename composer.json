@@ -1,15 +1,18 @@
 {
-    "name": "andaniel05/glue-php",
+    "name": "glueapps/glue-php",
     "license": "MIT",
     "authors": [
         {
-            "name": "Andy D. Navarro Taño",
+            "name": "Andy Daniel Navarro Taño",
             "email": "andaniel05@gmail.com"
+        },
+        {
+            "name": "GlueApps Community"
         }
     ],
     "require": {
         "php": ">=7.1.1",
-        "andaniel05/composed-views": "dev-0.1a",
+        "glueapps/composed-views": "dev-0.1a",
         "matthiasmullie/minify": "^1.3"
     },
     "require-dev": {
@@ -19,8 +22,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Andaniel05\\GluePHP\\": "src/",
-            "Andaniel05\\GluePHP\\Tests\\": "tests/"
+            "GlueApps\\GluePHP\\": "src/",
+            "GlueApps\\GluePHP\\Tests\\": "tests/"
         },
         "files": [
             "src/functions.php"
